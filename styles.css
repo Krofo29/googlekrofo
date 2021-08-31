@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.cabecera{
+    width: 100vh;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    text-align: end;
+    padding: 1%;
+    font-size: 13px;
+    color:black;
+}
+.gmail{
+    text-decoration: none;
+    margin-right: 1.5%;
+}
+.Imagenes{
+    text-decoration: none;
+    margin-right: 3.5%;
+}
+#puntos{
+    margin-right: 1.5%;
+}
+#centro{
+    margin-top: 15vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+#buscar{
+    width: 60%;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid rgb(240, 240, 240);
+}
+#botones{
+    margin-top: 30px;
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+#buscarcongoogle{
+    margin-right: 2%;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.1px solid transparent;
+    background-color: rgb(243, 243, 243);
+}
+#mesientoconsuerte{
+    margin-left: 2%;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.1px solid transparent;
+    background-color: rgb(243, 243, 243);
+}
+#ofrecidocontenido{
+    display:flex;
+    flex-direction:row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+#ofrecido{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+#English{
+    margin-left: 5px;
+    color: blue;
+}
+#pies{
+    width: 100vh;
+    position: absolute; bottom: 0%; 
+}
+#pie1{
+    width: 100vh;
+    height: 5vh;
+    background-color: rgb(243, 243, 243);
+    display:flex;
+    align-items: center;
+    padding-left: 2%;
+    font-size: 14px;
+    color: gray;
+}
+#pie2{
+    width: 102vh;
+    height: 5vh;
+    background-color: rgb(243, 243, 243);
+    border-top: 1px solid lightgray;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 14px;
+    color: gray;
+}
+English:visited{
+    color: purple;
+    text-decoration: none;
+}
+a:visited{
+    color: gray;
+    text-decoration: none;
+}
+a:link{
+    color: gray;
+    text-decoration: none;
+}
+a:focus{
+    border-bottom: 1px solid gray;
+}
+a:hover{
+    border-bottom: 1px solid gray;
+}
