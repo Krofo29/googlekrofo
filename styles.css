@@ -5,26 +5,28 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 .cabecera{
-    width: 100vh;
+    width: 100%;
     display:flex;
     justify-content: flex-end;
     align-items: center;
     background-color: transparent;
     text-align: end;
-    padding: 1%;
     font-size: 13px;
     color:black;
 }
 .gmail{
     text-decoration: none;
     margin-right: 1.5%;
+    margin-top: 15px;
 }
 .Imagenes{
     text-decoration: none;
-    margin-right: 3.5%;
+    margin-right: 1.5%;
+    margin-top: 15px;
 }
 #puntos{
     margin-right: 1.5%;
+    margin-top: 15px;
 }
 #centro{
     margin-top: 15vh;
@@ -33,7 +35,7 @@ html{
     align-items: center;
 }
 #buscar{
-    width: 60%;
+    width: 550px;
     height: 40px;
     border-radius: 40px;
     border: 2px solid rgb(240, 240, 240);
@@ -81,34 +83,40 @@ html{
     color: blue;
 }
 #pies{
-    width: 100vh;
+    width: 99%;
     position: absolute; bottom: 0%; 
 }
 #pie1{
-    width: 100vh;
+    width: 100%;
     height: 5vh;
     background-color: rgb(243, 243, 243);
     display:flex;
     align-items: center;
-    padding-left: 2%;
     font-size: 14px;
     color: gray;
+    padding-left: 2%;
 }
 #pie2{
-    width: 102vh;
+    width: 100%;
     height: 5vh;
     background-color: rgb(243, 243, 243);
     border-top: 1px solid lightgray;
     display:flex;
-    justify-content: space-around;
+    flex-direction:row;
     align-items: center;
-    margin-top: 0px;
+    justify-content: space-around;
     font-size: 14px;
     color: gray;
 }
-English:visited{
-    color: purple;
-    text-decoration: none;
+#piei{
+    width: 50%;
+    display:flex;
+    justify-content: space-around;
+}
+#pied{
+    width: 20%;
+    display:flex;
+    justify-content: space-around;
 }
 a:visited{
     color: gray;
@@ -124,3 +132,16 @@ a:focus{
 a:hover{
     border-bottom: 1px solid gray;
 }
+#buscar:hover{
+    box-shadow: 0px 0px 7px 0px rgb(196, 196, 196);
+}
+#buscar:focus{
+    outline:none;
+}
+#buscarcongoogle:hover{
+    box-shadow: 0px 0px 7px 0px rgba(196, 196, 196);
+}
+#mesientoconsuerte:hover{
+    box-shadow: 0px 0px 7px 0px rgb(196, 196, 196);
+}
+
