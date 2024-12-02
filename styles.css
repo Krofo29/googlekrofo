@@ -1,147 +1,199 @@
-html{
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
+#page-wrapper {
+  position: relative;
 }
-.cabecera{
-    width: 100%;
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: transparent;
-    text-align: end;
-    font-size: 13px;
-    color:black;
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+    display: flex;
+  align-items: center;
 }
-.gmail{
-    text-decoration: none;
-    margin-right: 1.5%;
-    margin-top: 15px;
+h2{
+  color: orange;
+  font-weight: 800;
 }
-.Imagenes{
-    text-decoration: none;
-    margin-right: 1.5%;
-    margin-top: 15px;
+how-it-works{
+      display: flex;
+  align-items: center;
 }
-#puntos{
-    margin-right: 1.5%;
-    margin-top: 15px;
+p{
+  color: black;
 }
-#centro{
-    margin-top: 15vh;
-    display:flex;
-    flex-direction:column;
-    align-items: center;
+.logo {
+  width: 60vw;
 }
-#buscar{
-    width: 550px;
-    height: 40px;
-    border-radius: 40px;
-    border: 2px solid rgb(240, 240, 240);
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
 }
-#botones{
-    margin-top: 30px;
-    display:flex;
-    flex-direction:row;
-    align-items: baseline;
-    justify-content: space-evenly;
+#page-wrapper {
+  position: relative;
 }
-#buscarcongoogle{
-    margin-right: 2%;
-    width: 150px;
-    height: 35px;
-    border-radius: 10px;
-    border: 0.1px solid transparent;
-    background-color: rgb(243, 243, 243);
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 75px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: orange;
 }
-#mesientoconsuerte{
-    margin-left: 2%;
-    width: 150px;
-    height: 35px;
-    border-radius: 10px;
-    border: 0.1px solid transparent;
-    background-color: rgb(243, 243, 243);
-}
-#ofrecidocontenido{
-    display:flex;
-    flex-direction:row;
-    align-items: baseline;
-    justify-content: space-evenly;
-    margin-top: 20px;
-    
-}
-#ofrecido{
-    display:flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 14px;
-}
-#English{
-    margin-left: 5px;
-    color: blue;
-}
-#pies{
-    width: 99%;
-    position: absolute; bottom: 0%; 
-}
-#pie1{
-    width: 100%;
-    height: 5vh;
-    background-color: rgb(243, 243, 243);
-    display:flex;
-    align-items: center;
-    font-size: 14px;
-    color: gray;
-    padding-left: 2%;
-}
-#pie2{
-    width: 100%;
-    height: 5vh;
-    background-color: rgb(243, 243, 243);
-    border-top: 1px solid lightgray;
-    display:flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 14px;
-    color: gray;
-}
-#piei{
-    width: 50%;
-    display:flex;
-    justify-content: space-around;
-}
-#pied{
-    width: 20%;
-    display:flex;
-    justify-content: space-around;
-}
-a:visited{
-    color: gray;
-    text-decoration: none;
-}
-a:link{
-    color: gray;
-    text-decoration: none;
-}
-a:focus{
-    border-bottom: 1px solid gray;
-}
-a:hover{
-    border-bottom: 1px solid gray;
-}
-#buscar:hover{
-    box-shadow: 0px 0px 7px 0px rgb(196, 196, 196);
-}
-#buscar:focus{
-    outline:none;
-}
-#buscarcongoogle:hover{
-    box-shadow: 0px 0px 7px 0px rgba(196, 196, 196);
-}
-#mesientoconsuerte:hover{
-    box-shadow: 0px 0px 7px 0px rgb(196, 196, 196);
+#features {
+  margin-top: 200px;
 }
 
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+li {
+  list-style: none;
+}
+nav > ul {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+   text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+
+#video{
+    display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 50px;
+  border: 1px solid orange;
+  border-radius: 30px;
+}
+
+a{
+  color: black;
+  
+}
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.product > .level {
+  background-color: orange;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+#hero input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+#hero input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: orange;
+}
+#hero input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+#hero > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 0px;
+}
+
+nav {
+  font-weight: 800;
+}
+
+@media (max-width: 650px) {
+ 
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
